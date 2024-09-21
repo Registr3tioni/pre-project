@@ -1,0 +1,114 @@
+@import './variables';
+
+
+.column{
+    text-align: left;
+}
+
+.app-div-section {
+    padding-top: 110px;
+    padding-bottom: 105px;
+    place-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    white-space: pre-line;
+}
+
+.app-div-section .black-h1 {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.app-div-section .grey-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+}
+.app-list{
+    padding-top: 70px;
+}
+.app-list, 
+.app-item,
+.app-svg,
+.grey-border,
+.blue-border
+ {
+    display: flex;
+    flex-direction: row;
+}
+.app-list{
+    place-items: center;
+    place-content: center;
+}
+.app-item{
+    position: relative;
+
+}
+.app-item:not(:last-child){
+    margin-right: 84px;
+}
+.app-svg{
+        margin-top: 40px;
+    margin-left: -25px;
+    margin-right:57px;
+}
+    .grey-border{
+        margin-top: -95px;
+        margin-left: -57px;
+    }
+.blue-border{
+    margin-top: -120px;
+    margin-left: -47px;
+}
+// .app-svg,
+// .grey-border,
+// .blue-border{
+//     position: absolute;
+    
+// }
+// .app-item:nth-child(1) .app-svg:nth-of-type(1){
+//     margin-top: -5px;
+//     margin-left: 5px;
+// }
+// .app-item:nth-child(1) .blue-border{
+//     margin-top: -70px;
+//     margin-left: -3px;
+// }
+// .app-item:nth-child(1) .grey-border{
+//     margin-top: -60px;
+//     margin-left: -13px;     
+// }
+// .app-item:nth-child(1) .span-svg{
+//     position: absolute;
+//     padding-left: 410px;
+// }
+// .app-item:not(:nth-child(1)) .app-svg:nth-of-type(1){
+//     margin-top: -5px;
+//     margin-left: 64px;
+// }
+// .app-item:not(:nth-child(1)) .blue-border{
+//     margin-top: -70px;
+//     margin-left: 40px;
+// }
+// .app-item:not(:nth-child(1)) .grey-border{
+//     margin-top: -60px;
+//     margin-left: 30px;     
+// }
+
+.column{
+    flex-direction: column;
+    margin-top: 46px;
+}
+
+// .app-item:nth-child(1) .column{
+//     padding-left: 532px;
+// }
+// .app-item:not(:first-child) .column{
+//     padding-left: 155px;
+// }
+.app-div .hero-title-button{
+    margin-top: 50px;
+    place-content: center;
+    
+}

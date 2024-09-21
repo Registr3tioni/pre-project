@@ -1,0 +1,51 @@
+@import './variables';
+
+.title-specializations{
+    padding-top: 100px;
+    background:$back-gradient;
+    padding-bottom: 302px;
+    text-align: center;
+    align-items: center;
+}
+
+.specialization-title-button{
+    background-color: $bttns-backcolor;
+    color: $white-text;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 50px;
+    padding: 13px 36px 15px;
+    align-items: center;
+}
+ .title-specializations .second-container{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.specializations-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.specialization-photo-title{
+    padding: 30px 0px 30px 0px;
+}
+.specialization-item{
+    position: relative;
+}
+.specializations-item .grey-p{
+    margin-top: 47px;
+}
+.blue-numbers{
+    color: $bttns-backcolor;
+}
+.specialization-item{
+    padding-bottom: 85px;
+    border-bottom: 1px solid #f6f6f6 ;
+    overflow: visible;
+}
+.section-specialization{
+    position: relative;
+    margin-bottom: 85px;
+}

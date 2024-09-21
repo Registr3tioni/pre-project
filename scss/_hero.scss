@@ -1,0 +1,33 @@
+@import './variables';
+
+.hero{
+    color: $white-text;
+    padding-top: 319px;
+    padding-bottom: 335px;
+    display: block;
+    text-align: center;
+    
+}
+.hero-p{
+    font-weight: 500;
+font-size: 16px;
+padding-bottom: 20px;
+line-height: 19.5px;
+}
+
+
+.white-h1{
+    color: $white-text;
+    font-weight: 800;
+font-size: 48px;
+padding-bottom: 50px;
+line-height: 64.36px;
+white-space: pre-line;
+}
+.hero-title-button{
+    background-color: $bttns-backcolor;
+    color: $white-text;
+    border-radius: 30px;
+    border: 0px;
+    padding: 13px 36px 15px;
+}

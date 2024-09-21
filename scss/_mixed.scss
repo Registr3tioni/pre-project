@@ -1,0 +1,57 @@
+@import './variables';
+body{
+font-family: $font;
+}
+.container{
+  width: 1920px;
+  margin: 0 auto;
+  outline: 1px dashed red;
+}
+.second-container{
+  outline: 1px solid salmon;
+  width: 1110px;
+margin: 0px 450px 0px 450px ;
+}
+.white-h1 {
+  color: $white-text;
+  font-weight: 800;
+  font-size: 48px;
+  padding-bottom: 50px;
+  line-height: 64.36px;
+  white-space: pre-line;
+}
+.white-h2 {
+  color: $white-text;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 52.66px;
+text-align: left;
+white-space: pre-line;
+}
+.black-h1 {
+  color: $black-text;
+  font-weight: 800;
+  font-size: 48px;
+  padding-bottom: 50px;
+  line-height: 64.36px;
+  white-space: pre-line;
+}
+.black-h2 {
+  color: $black-text;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  line-height: 64.36px;
+  white-space: pre-line;
+}
+.black-h3{
+  color: $black-text;
+  font-weight: 600;
+font-size: 18px;
+
+}
+.grey-p{
+  color: $grey-text;
+  white-space: pre-line;
+}

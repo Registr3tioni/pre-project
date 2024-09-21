@@ -1,0 +1,44 @@
+@import "./variables";
+
+.back-photo {
+  background-image: url(/images/headerxhero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header{
+border-bottom: 1px solid grey;
+}
+.nav-list,
+.nav-item {
+  color: $white-text;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list {
+  margin-left: 546px;
+  padding:40px auto 40px auto ;
+}
+
+.nav-item:nth-child(1) {
+  margin-right: 39px;
+}
+
+.nav-item:nth-child(2) {
+  margin-right: 49px;
+}
+
+.nav-item:nth-child(3) {
+  margin-right: 27px;
+}
+
+.nav-item:nth-child(4) {
+  margin-right: 45px;
+}
+
+.nav-link {
+  color: $white-text;
+  font-weight: 500;
+  font-size: 16px;
+}

@@ -1,0 +1,57 @@
+@import './variables';
+
+.section-mailing{
+    margin-bottom: 90px;
+    align-items: center;
+    align-content: center;
+    .mailing-title-block{
+        margin-top: 300px;
+        .mailing-title-block-h3{
+            font-size: 18px;
+            font-weight: 700;
+
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .mailing-title-block-p{
+            font-size: 16px;
+            font-weight: 400;
+
+            color: $grey-text;
+            text-align: center;
+        }
+    }
+    .lebel-mailing{
+        margin-left: 320px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        input{
+            width: 300px;
+            height: 45px;
+            border-radius: 50px 0 0 50px ;
+            border: 1px solid $grey-text;
+            padding-left: 20px;
+        }
+        .button-mailing{
+            width: 190px;
+            height: 47px;
+            background-color: $bttns-backcolor;
+            border-radius: 0 50px 50px 0;
+            a{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+
+                padding: 35px;
+                line-height: 40px;
+            }
+        }
+    }
+   .mailing-p-small{
+    font-size: 16px;
+            font-weight: 400;
+
+            color: $grey-text;
+            text-align: center;
+   }
+}

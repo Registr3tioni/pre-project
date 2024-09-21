@@ -1,0 +1,23 @@
+@import './variables';
+// .section-project .black-h2 .grey-p .project-list .project-item .apps-image
+.section-project{
+    background: #f6f6f8;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.section-project
+.black-h2{
+    padding: 0px 0px 28px 0px;
+}
+.section-project .grey-p{
+    padding-bottom: 67px;
+}
+.project-list{
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.section-project{
+    padding-bottom: 130px;
+}
